@@ -75,7 +75,7 @@ def proxMantenimiento():
 
     ci_fecha= input('Ingrese la fecha inicial "aaaa/mm/dd"... del rango que desea registrar')
     fecha_i =datetime.strptime(ci_fecha,'%Y/%m/%d')
-    cf_fecha= input('Ingrese la fecha inicial "aaaa/mm/dd"... del rango que desea registrar')
+    cf_fecha= input('Ingrese la fecha final "aaaa/mm/dd"... del rango que desea registrar')
     fecha_f =datetime.strptime(cf_fecha,'%Y/%m/%d')
 
     pos = 0
